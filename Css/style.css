@@ -1008,13 +1008,13 @@ body{
 }
 .footar-links a:hover{
     color: blue;
-    font-size: 35px;
+    /* font-size: 35px; */
 
 
 }
 .footar-pics a img:hover{
-height: 30px;
-width: 30px;
+/* height: 30px;
+width: 30px; */
 }
 /* Sectio -11 end */
 
