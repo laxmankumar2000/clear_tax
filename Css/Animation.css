@@ -11,3 +11,24 @@
     background-color: lightskyblue;
     border-radius: 15px;
 }
+.section-10-container-boxes:hover{
+    animation: 10s border;
+}
+@keyframes border {
+    0%{
+        transform:translateX(0);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    50%{
+        transform:translatez(-100px);
+    }
+    75%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(-50px);
+    }
+    
+}
