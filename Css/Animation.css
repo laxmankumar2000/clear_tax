@@ -1,0 +1,11 @@
+
+#down-type1 a:hover,#down-type2 a:hover,#down-type3 a:hover,#down-type4 a:hover{
+    background-color: rgb(130, 207, 238);
+    border-radius: 20px;
+}
+#down-type1 a img:hover,#down-type2 a img:hover,#down-type3 a img:hover,#down-type4 a img:hover{
+    background-color: red;
+}
+#type1 :hover , #type2 :hover , #type3 :hover, #type4 :hover{
+    background-color: hotpink;
+}

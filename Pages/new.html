@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .dropbtn{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: blue;
+}
+
+
+.product a:hover {
+    background-color: red;
+  }
+
+ .product .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    background-color: yellow;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .product  .dropdown-content a {
+    color: black;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .product .dropdown-content a:hover {background-color: red;}
+  
+  .product .dropdown:hover .dropdown-content{
+    display: block; */
+    /* background-color: violet; */
+  /* }  */
+
+
+
+
+
+
+.container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.product a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.product a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.product .dropdown-content{
+    display: none;
+  position: absolute;
+  background-color: blue;
+ width: 1000px;
+ height: 700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -500px;
+}
+
+.product .dropdoen-content p{
+    display: block;
+}
+
+
+
+
+.product .dropdown-content-area{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 500px;
+  height:auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top: 0;
+  left: 50px;
+}
+
+.product .dropdown-content-area a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.product .dropdown-content a:hover {background-color: #f1f1f1;}
+
+.product .dropdown:hover .dropdown-content-area {
+  display: block;
+}
+.product .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content-area-top{
+    float: left;
+    background-color: blueviolet;
+    width: 500px;
+    /* height: 200px; */
+    border-bottom: 5px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.dropdown-content-area-down{
+    float: left;
+    background-color: yellow;
+    width: 800px;
+    /* height: 200px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#type1,#type4,#type2,#type3
+{
+  background-color: brown;
+  width: 100px;
+  height: 100px;float: left;
+}
+#type2,#type3,#type4
+{
+  margin-left: 10px;
+}
+
+#down-type1,#down-type2,#down-type3,#down-type4{
+
+  width: 500px;
+  height: 400px;
+  background-color: coral;
+  float: left;
+}
+
+#down-type2,#down-type3,#down-type4{
+margin-left: 10px;
+}
+
+.tex
+{
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* text-align: justify; */
+}
+.tax:hover{
+  background-color: olive;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="product">
+            <div class="dropdown">
+            <a href="#" class="dropbtn">Product</a>
+            <div class="dropdown-content">
+
+                
+                
+                <div class="dropdown-content-area">
+                    <div class="dropdown-content-area-top">
+
+                      <div id="type1"></div>
+                      <div id="type2"></div>
+                      <div id="type3"></div>
+                      <div id="type4"></div>
+                        <!-- <a href="#">About Us </a>
+                        <a href="#">Careers</a>
+                        <a href="#">ClearLearn</a>
+                        <a href="#">ClearChronicles</a>
+                        <a href="#">Glossary</a>
+                        <a href="#">Webinars</a>
+                        <a href="#">Trust & Safty</a> -->
+
+                    </div>
+
+                    <div class="dropdown-content-area-down">
+
+                      <div id="down-type1">
+
+                        <div class="down-type1-item">
+                          <div id="down-type1-item-left">
+
+                            <img src="../Image/Capture-removebg-preview.png"  id="comman-type-for-top-img" height="50px" width="50px" alt="">
+                          </div>
+                          <div id="down-type1-item-right">
+                            <p id="down-type1-item-right-p1">Clear Gst</p>
+                            <p id="down-type1-item-right-p2">Full-Stack ASP/GSP Solution</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+
+
+                      <div id="down-type2"></div>
+                      <div id="down-type3"></div>
+                      <div id="down-type4"></div>
+                        <!-- <a href="#">About Us </a>
+                        <a href="#">Careers</a>
+                        <a href="#">ClearLearn</a>
+                        <a href="#">ClearChronicles</a>
+                        <a href="#">Glossary</a>
+                        <a href="#">Webinars</a>
+                        <a href="#">Trust & Safty</a> -->
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tex">
+
+      <!-- <img src="../Image/Capture-removebg-preview.png" alt=""> -->
+      <!-- <a href="">enterprises</a> -->
+      <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. At, fugit voluptatum. Ex, placeat eligendi. Earum, ad quos. Aliquid ipsa, explicabo in ut dignissimos incidunt recusandae modi cupiditate cum quibusdam voluptatum repellendus. Nihil accusantium architecto ratione saepe iure reprehenderit doloremque tenetur voluptas rerum. Iure excepturi necessitatibus consequuntur porro, reiciendis nam similique! -->
+    </div>
+
+</div>
+</body>
+</html>

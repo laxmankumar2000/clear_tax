@@ -1,0 +1,261 @@
+.faq{
+    width: 100%;
+    height: auto;
+    background-color: navy;
+    position: absolute;
+    top: 9000px;
+}
+.faq-container{
+    width: 90%;
+    height: 3000px;
+    margin: 5px auto;
+    /* background-color: blueviolet; */
+    position: relative;
+    /* display: flex; */
+}
+.faq-container h2{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+}
+.faq-container-text-full-container{
+    /* background-color:brown; */
+    width: 85%;
+    height: 1700px;
+    /* position: absolute; */
+    margin-left: 80px;
+    margin-top: 60px;
+
+}
+.faq-container-text-container{
+    /* background-color:red; */
+    width: 100%;
+    margin-top:60px;
+    /* height: 300px;
+    position: absolute;
+    left: 60px; */
+}
+.faq-container-text-container h5{
+    font-size: 30px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.faq-container-text-container p{
+    font-size: 22px;
+    color: lightgray;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#faq-container-text-container-pro{
+    font-size: 23px;
+    color: white;
+}
+#faq-container-text-container-support{
+    font-size: 23px ;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+/* links part */
+.faq-container-links-container{
+    width: 100%;
+    /* background-color: blueviolet; */
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-container-links-container-part1{
+    width: 15.5%;
+    height: 200px;
+    /* background-color: blue; */
+}
+.faq-container-links-container-part1-icon img{
+    width: 190px;
+    height: 70px;
+}
+.faq-container-links-container-part1-text {
+    width: 120px;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#faq-container-links-container-part1-tex-link1{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+#faq-container-links-container-part1-tex-link2{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 200px;
+}
+
+
+.faq-container-links-container-part2{
+    width: 15.5%;
+    height: 00px;
+    /* background-color: blue; */
+
+}
+
+.faq-container-links-container-part2-heading{
+    width:150px ;
+    /* background-color: red; */
+}
+
+.faq-container-links-container-part2-heading h3{
+ font-size: 30px;
+ text-align: left;
+ color:rgb(77, 73, 73);
+}
+.faq-links{
+    width: 180px;
+    height: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.faq-links ul{
+    list-style-type: none;
+}
+
+.faq-links ul li{
+    font-size: 15px;
+    padding: 6px 15px;
+}
+.faq-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.faq-links ul li a:hover{
+    color: greenyellow;
+}
+
+
+/* part 3 */
+
+.faq-container-links-container-part3{
+    width: 15.5%;
+    height: 720px;
+    /* background-color: blue; */
+
+}
+.faq-container-links-container-part3-first{
+    width: 180px;
+    height: 230px;
+    /* background-color: green; */
+}
+.faq-container-links-container-part3-second{
+    
+    width: 180px;
+    height: 230px;
+    /* background-color: yellow; */
+}
+.faq-container-links-container-part3-third{
+    
+    width: 180px;
+    height: 230px;
+    /* background-color: green; */
+}
+
+
+/* Part 4 */
+
+.faq-container-links-container-part4
+{
+    width: 15.5%;
+    height: auto;
+    /* background-color: blue; */
+}
+.faq-container-links-container-part4-first{
+    width: 180px;
+    height: 850px;
+    /* background-color: green; */
+
+}
+.faq-container-links-container-part4-second{
+    width: 180px;
+    height: 850px;
+    /* background-color: yellow; */
+
+}
+
+
+/* part 5 */
+
+.faq-container-links-container-part5{
+    width: 15.5%;
+    height: 750px;
+    /* background-color: blue; */
+
+}
+
+
+/* part 6 */
+
+.faq-container-links-container-part6{
+    width: 15.5%;
+    height: 1000px;
+    /* background-color: blue; */
+}
+
+.faq-container-links-container-part6-first{
+    width: 180px;
+    height: 520px;
+    /* background-color: green; */
+
+}
+.faq-container-links-container-part6-second
+{
+    width: 180px;
+    height: 450px;
+    /* background-color: yellow; */
+}
+
+
+/* footar */
+
+.footar
+{
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 900px;
+
+}
+
+.footar-links
+{
+    margin-right: 15px;
+    /* display: flex;
+    justify-content:space-between; */
+}
+.footar-links a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+#footar-links-a1{
+    margin-right: 10px;
+
+}
+#footar-pics-a2{
+    margin-left: 10px;
+}
+
