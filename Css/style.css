@@ -202,7 +202,7 @@ body{
 {
     width: 55px;
     height: 55px;
-    background-color: grey;
+    /* background-color: grey; */
     border-radius: 50%;
     margin-top: 50px;
     margin-left: 50px;
@@ -216,8 +216,8 @@ body{
     /* background-color: grey;
     border-radius: 50%; */
     text-align:center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     
 }
 .section-2-container-boxes-text{
@@ -1010,6 +1010,11 @@ body{
     color: blue;
     font-size: 35px;
 
+
+}
+.footar-pics a img:hover{
+height: 30px;
+width: 30px;
 }
 /* Sectio -11 end */
 
