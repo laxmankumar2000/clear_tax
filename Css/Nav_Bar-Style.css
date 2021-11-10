@@ -87,7 +87,8 @@
     text-decoration: none;
 }
 .right-nav-sec ul  li a:hover,.right-nav-sec .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: aqua;
+    border-radius: 20px;
 }
   
 .right-nav-sec ul li.dropdown {
@@ -97,7 +98,8 @@
 .right-nav-sec .dropdown-content {
     display: none;
     position: absolute;
-    background-color:green;
+    background-color:white;
+    border-radius: 20px;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -106,12 +108,14 @@
 .right-nav-sec .dropdown-content a {
     color: black;
     padding: 15px 16px;
+    border-bottom: 2px solid rgb(199, 192, 192);
     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
     display: block;
     text-align: left;
 }
 
-.right-nav-sec .dropdown-content a:hover {background-color: #f1f1f1;}
+.right-nav-sec .dropdown-content a:hover {background-color:aquamarine;}
 
 .right-nav-sec .dropdown:hover .dropdown-content {
   display:block;
@@ -132,11 +136,18 @@
 .right-nav-sec .buttons #btn-1{
     font-size: 25px;
     padding: 16px 30px;
-    background-color:grey;
+    background-color:blue;
     position: absolute;
+    color: white;
     top: 20px;
     right: 220px;
     border-radius: 10px;
+}
+.buttons #btn-1:hover
+{
+    background-color:olive;
+    color: rgb(224, 212, 139);
+
 }
 .right-nav-sec .buttons #btn-2{
     font-size: 25px;
@@ -145,10 +156,15 @@
     position: absolute;
     top: 20px;
     right: 0;
-    background-color: greenyellow;
-    color: indigo;
+    background-color: blue;
+    color: white;
     border-radius: 10px;
     /* width: 100px; */
+}
+.right-nav-sec .buttons #btn-2:hover{
+    background-color:olive;
+    color: rgb(224, 212, 139);
+
 }
 
 
@@ -199,7 +215,9 @@
     text-align: left;
   }
   
-  #only-one:hover {background-color: red;}
+  #only-one:hover {background-color:aqua;
+    padding:15px;
+    border-radius: 20px;}
   
   .product .dropdown:hover .dropdown-content-area   {
     display: block;
